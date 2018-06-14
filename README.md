@@ -12,16 +12,19 @@
 
 Here are some Demos
 
-* Demo 1 - How are you doing? (Small Talk)
-![alt text](https://github.com/mianchd/distance_travel_bot/blob/master/images/demo1.JPG "First Demo")
+* Demo 1 - How are you doing? (Small Talk)  
+
+![alt text](https://github.com/mianchd/distance_travel_bot/blob/master/images/demo1.JPG "First Demo")  
 
 
-* Demo 2 - How far is Ottawa from Toronto
-![alt text](https://github.com/mianchd/distance_travel_bot/blob/master/images/demo2.jpg "Second Demo")
+* Demo 2 - How far is Ottawa from Toronto  
+
+![alt text](https://github.com/mianchd/distance_travel_bot/blob/master/images/demo2.jpg "Second Demo")  
 
 
-* Demo 3 - What is the distance to Montreal to Quebec City
-![alt text](https://github.com/mianchd/distance_travel_bot/blob/master/images/demo3.jpg "Third Demo")
+* Demo 3 - What is the distance to Montreal to Quebec City  
+
+![alt text](https://github.com/mianchd/distance_travel_bot/blob/master/images/demo3.jpg "Third Demo")  
 
 
 To run you must put the following in the JavaScript File
