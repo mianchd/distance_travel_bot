@@ -1,0 +1,104 @@
+		<style type="text/css">
+		h2 {color: black}
+		body {background-color: lightgrey}
+		.chat-window {
+			background-image: url("../images/grey-square-pattern-background-vector-illustration_1164-1350.jpg");
+			font-family: Verdana;
+			font-size: 16px;
+			margin: 6px;
+			padding: 5px;
+			text-align: center;
+			height: 600px;
+			width: 300px;
+			border: double;
+			border-width: 5px;
+		}
+
+		/* Button One */
+		.button-one {
+			padding:5px 15px;
+			outline: none;
+			background-color: #27ae60;
+			border: none;
+			border-radius:5px;
+			box-shadow: 0 9px #95a5a6;
+		}
+		.button-one:hover{
+			background-color: #2ecc71;
+		}
+		.button-one:active {
+			background-color: #2ecc71;
+			box-shadow: 0 5px #95a5a6;
+			transform: translateY(4px);
+		}
+
+		/*Button Two*/
+		.button-two {
+			border-radius: 4px;
+			background-color:#d35400;
+			border: none;
+			padding: 20px;
+			width: 150px;
+			transition: all 0.5s;
+		}
+
+
+		.button-two span {
+			cursor: pointer;
+			display: inline-block;
+			position: relative;
+			transition: 0.5s;
+		}
+
+		.button-two span:after {
+			content: '»';
+			position: absolute;
+			opacity: 0;
+			top: 0;
+			right: -20px;
+			transition: 0.5s;
+		}
+
+		.button-two:hover span {
+			padding-right: 25px;
+		}
+
+		.button-two:hover span:after {
+			opacity: 1;
+			right: 0;
+		}
+
+		input[type='text']{
+
+			color: #333;
+			width: 200px;
+			height: 38px;
+			margin-left: 5px;
+			margin-top: 5px;
+			
+			left: 50%;
+			top: 50%;
+			padding-left: 10px;
+			padding-right: 10px;
+
+			transition: box-shadow 320ms;
+
+			box-shadow: 0px 0px 8px 10px rgba(0,0,0,0.1);
+
+			border-radius: 3px;
+			font-size: 18px;
+			border: 0px;
+		}
+
+		input[type='text']:focus {
+
+			outline: 0px;
+			outline-offset: 0px;
+			box-shadow: 0px 0px 1px 5px rgba(0,0,0,0.12);
+		}
+
+		input:-moz-placeholder {
+			color: #cccccc;
+		}
+
+		</style>
